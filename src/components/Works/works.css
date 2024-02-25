@@ -1,39 +1,64 @@
-#works{
-    margin: 0 auto;
-    min-height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 60rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+*{
+    
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+.container{
+    
+    padding: 20px 20%;
+    padding-bottom: 90px;
+}
+
+.container .heading{
     text-align: center;
-    padding: 0 1rem;
-}
-
-.worksTitle{
-    margin: 1rem 0;
-    font-size: 3rem;
+    padding-bottom: 1px;
     color: red;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
 }
 
-.worksDesc{
-    font-weight: 300;
-    font-size: 1rem;
+.container .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr)) ;
+    gap:15px;
 }
 
-.worksImgs{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100vw;
-    max-width: 65rem;
+.container .box-container .box{
+    
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    padding: 30px 20px;
 }
 
-.worksImg{
-    object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
+.container .box-container .box img{
+    height: 80px;
+}
 
+.container .box-container .box h3{
+    color: black;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media screen and (max-width:768px) 
+{
+    .container{
+        padding: 20px;
+    }
 }

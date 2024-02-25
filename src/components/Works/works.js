@@ -1,25 +1,56 @@
 import React from 'react';
 import './works.css';
+import work1 from '../../assets/Screenshot (52).png';
 
 
 const Works = () => {
     return(
-        <section id='works'>
-            <h2 className="worksTitle">My Projects</h2>
-            <span className="workDesc">Below are the details of software projects 
-            created across multiple platforms. 
-            I have developed a diverse range of 
-            software projects across various platforms.</span>
-            <div className="worksImgs">
-                <img src="" alt='' className="workImg"></img>
-                <img src="" alt='' className="workImg"></img>
-                <img src="" alt='' className="workImg"></img>
-                <img src="" alt='' className="workImg"></img>
-                <img src="" alt='' className="workImg"></img>
-                <img src="" alt='' className="workImg"></img>
+        <div className='container'>
+            <h1 className='heading'>Projects</h1>
+            <div className='box-container'>
+                <a href=''><div className='box'>
+                    <img src={work1} alt='image'/>
+                    <h3>Html</h3>
+                    <p>This is a html project</p>
+                    
+                </div></a>
+                <a href=''><div className='box'>
+                <img src={work1} alt='image'/>
+                    <h3>Html</h3>
+                    <p>This is a html project</p>
+                    
+                </div></a>
+                <a href=''><div className='box'>
+                <img src={work1} alt='image'/>
+                    <h3>Html</h3>
+                    <p>This is a html project</p>
+                    
+                </div></a>
+                <a href=''><div className='box'>
+                <img src={work1} alt='image'/>
+                    <h3>Html</h3>
+                    <p>This is a html project</p>
+                   
+                </div></a>
+                <a href=''><div className='box'>
+                <img src={work1} alt='image'/>
+                    <h3>Html</h3>
+                    <p>This is a html project</p>
+                    
+                </div></a>
+                <a href=''><div className='box'>
+                <img src={work1} alt='image'/>
+                    <h3>Html</h3>
+                    <p>This is a html project</p>
+                    
+                </div></a>
             </div>
-        </section>
+            
 
+ 
+           
+     
+        </div>
         
     );
 }
