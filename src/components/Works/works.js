@@ -5,6 +5,7 @@ import work1 from '../../assets/Screenshot (52).png';
 
 const Works = () => {
     return(
+        <section id="works">
         <div className='container'>
             <h1 className='heading'>Projects</h1>
             <div className='box-container'>
@@ -51,6 +52,7 @@ const Works = () => {
            
      
         </div>
+        </section>
         
     );
 }
