@@ -36,18 +36,18 @@
 }
 
 .container .box-container .box img{
-    height: 80px;
+    height: 70px;
 }
 
 .container .box-container .box h3{
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     padding: 10px 0;
 }
 
 .container .box-container .box p{
     color: black;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.8;
 }
 

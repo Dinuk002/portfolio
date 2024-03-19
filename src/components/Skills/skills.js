@@ -1,5 +1,8 @@
 import React from 'react';
 import './skills.css';
+import java from '../../assets/java.png';
+import web from '../../assets/html.png';
+import ML from '../../assets/ML.png';
 
 const Skills = () =>{
     return (
@@ -10,7 +13,7 @@ const Skills = () =>{
              while also demonstrating strong communication, teamwork, and time management skills. </span>
              <div className='skillBars'>
                 <div className='skillBar'>
-                    <img src="" alt='' className="skillBarImg"/>
+                    <img src={web} alt='' className="skillBarImg"/>
                     <div className='skillBarText'>
                         <h2>Web Development</h2>
                         <p>I am a skillful web developer proficient in various web 
@@ -18,17 +21,17 @@ const Skills = () =>{
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src="" alt='' className="skillBarImg"/>
+                    <img src={java} alt='' className="skillBarImg"/>
                     <div className='skillBarText'>
                         <h2>Java Programming</h2>
                         <p>I am a Java programmer with a growing proficiency in Java programming concepts.</p>
                     </div>
                 </div>
                 <div className='skillBar'>
-                    <img src="" alt='' className="skillBarImg"/>
+                    <img src={ML} alt='' className="skillBarImg"/>
                     <div className='skillBarText'>
-                        <h2>Application Development</h2>
-                        <p>I am a novice Flutter developer, eager to learn and proficient in basic Flutter development concepts and practices.</p>
+                        <h2>Machine Learning</h2>
+                        <p>I am a machine learning enthusiast, eager to delve deeper and proficient in fundamental concepts of machine learning.</p>
                     </div>
                 </div>
              </div>

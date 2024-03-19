@@ -2,6 +2,8 @@ import react from 'react';
 import './navbar.css';
 import { Link } from 'react-scroll'; 
 import React, { useState } from 'react';
+import cv from '../../assets/CV.pdf';
+import download from '../../assets/download.png';
 
 
 const Navbar = () =>{
@@ -15,11 +17,9 @@ const Navbar = () =>{
                 <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenueListItem">Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenueListItem">Contact Me</Link>
             </div>
-            <button className="desktopMenueBtn" onclick={() => {
-                document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
-            }}>
-            <img src='' alt=''className='desktopMenueImg'/>Contact Me
-            </button>
+            <a href={cv} download><button className="desktopMenueBtn">
+            <img src={download} alt=''className='desktopMenueImg'/>Download CV
+            </button></a>
 
                         <img src='' alt='Logo' className='mobMenue' onClick={()=>setShowMenue(!showMenue)}/>
             <div className="navMenue" style={{display: showMenue? 'flex':'none'}}>
