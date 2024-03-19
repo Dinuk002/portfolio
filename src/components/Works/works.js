@@ -11,6 +11,8 @@ const Works = () => {
         <section id="works">
         <div className='container'>
             <h1 className='heading'>Projects</h1>
+            <span className='skillDesc'>
+You may access the respective GitHub repositories of the provided projects by clicking on the corresponding blocks, where you can also explore additional projects.</span>
             <div className='box-container'>
                 <a href='https://github.com/Dinuk002/Subscription_predeiction_ML_Model'><div className='box'>
                     <img src={work1} alt='image'/>

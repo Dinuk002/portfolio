@@ -13,7 +13,7 @@ const Intro = () => {
                <p className="introPara">Embrace opportunities for rapid learning and dedicated collaboration
                ,<br/> eagerly contributing to the company's success and absorbing insights<br/> from seasoned professionals. 
                Demonstrate unwavering confidence to<br/> postively impact as a Software Engineer.</p>  
-               <Link><button className="btn"><img src='' alt='' className="btnImg"/>Hire Me</button></Link>
+               
             </div> 
             <img src={bg} alt="profile" className="bg"></img> 
         </section>

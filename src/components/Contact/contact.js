@@ -1,6 +1,10 @@
 import React, { useRef } from 'react';
 import './contact.css';
 import emailjs from '@emailjs/browser';
+import ins from '../../assets/insta.png';
+import git from '../../assets/git.png';
+import lin from '../../assets/linkedin.png';
+import twi from '../../assets/twitter.png';
 
 
 const Contact = () => {
@@ -35,10 +39,10 @@ const Contact = () => {
                     <textarea  className='msg' name='message' rows="5" placeholder='Your Message'></textarea>
                     <button type='submit' value='send' className='submitBtn'>Submit</button>
                     <div className='links'>
-                        <img src="" alt="Linkedin" className='link'/>
-                        <img src="" alt="GitHub" className='link'/>
-                        <img src="" alt="Instagram" className='link'/>
-                        <img src="" alt="FaceBook" className='link'/>
+                        <a href="https://www.linkedin.com/in/dinuk-shivakumar-08299a258/"><img src={lin} alt="Linkedin" className='link'/></a>
+                        <a href="https://github.com/Dinuk002"><img src={git} alt="GitHub" className='link'/></a>
+                        <a href="https://www.instagram.com/_.dinuk._/"><img src={ins} alt="Instagram" className='link'/></a>
+                        <a href=""><img src={twi} alt="Twitter" className='link'/></a>
                     </div>
                 </form>
             </div> 
