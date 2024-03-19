@@ -5,13 +5,14 @@ import React, { useState } from 'react';
 import cv from '../../assets/CV.pdf';
 import download from '../../assets/download.png';
 import bu from '../../assets/side.png';
+import logo from '../../assets/circle (2).png';
 
 
 const Navbar = () =>{
     const [showMenue,setShowMenue] = useState(false);
     return(
         <nav className="navbar">
-            <img src='' alt='Logo' className='logo'/>
+            <img src={logo} alt='Logo' className='logo'/>
             <div className="desktopMenue">
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenueListItem">Home</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenueListItem">Skills</Link>
