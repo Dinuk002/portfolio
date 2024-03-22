@@ -47,7 +47,7 @@ You may access the respective GitHub repositories of the provided projects by cl
                 <a href='https://github.com/foodlens'><div className='box'>
                 <img src={work5} alt='cover'/>
                     <h3>Dart</h3>
-                    <p>An food AI Powered Food Analysis Companion Application</p>
+                    <p>An AI Powered Food Analysis Companion Application</p>
                     
                 </div></a>
             </div>
